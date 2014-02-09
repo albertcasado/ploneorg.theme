@@ -100,7 +100,6 @@ header {
 }
 .header-wrapper .row,
 .navbar-plonetheme {
-  padding: 0 5px 0 20px;
   background-color: transparent;
   margin-bottom: 0;
   border: 0;
@@ -112,7 +111,7 @@ header {
   color: #fff;
   text-transform: uppercase;
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 33px;
 }
 .header-wrapper .row .navbar-nav > li,
 .navbar-plonetheme .navbar-nav > li {
@@ -132,8 +131,11 @@ header {
 .header-wrapper .row .navbar-nav > .open > a,
 .navbar-plonetheme .navbar-nav > .open > a,
 .header-wrapper .row .navbar-nav > .open > a:hover,
-.navbar-plonetheme .navbar-nav > .open > a:hover {
+.navbar-plonetheme .navbar-nav > .open > a:hover,
+.header-wrapper .row .navbar-nav > .open > a:focus,
+.navbar-plonetheme .navbar-nav > .open > a:focus {
   background-color: #12495f;
+  color:#fff;
 }
 #portal-logo {
   margin: 22px 0;
