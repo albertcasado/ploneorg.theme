@@ -43,7 +43,6 @@ body {
   /* Sticky footer */
   height: 100%;
   font-family: DinMedium, Helvetica, Arial, sans-serif;
-  font-size: 120%;
 }
 #outer-wrapper {
   /* Sticky footer w/IE fixes*/
