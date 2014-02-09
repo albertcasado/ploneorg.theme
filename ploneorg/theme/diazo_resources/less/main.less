@@ -93,7 +93,7 @@ header{
 }
 .header-wrapper .row,
 .navbar-plonetheme {
-  padding: 0 5px 0 20px;
+
   background-color: transparent;
   margin-bottom: 0;
   border:0;
@@ -102,7 +102,7 @@ header{
     color:#fff;
     text-transform: uppercase;
     padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 33px;
   }
   /*fem que el menú ocupi el 100%*/
   .navbar-nav > li {position:inherit;}
@@ -112,9 +112,12 @@ header{
     border-radius: 0;
     background: rgba(11,66,88,.95);
   }
-  .navbar-nav > .open > a, .navbar-nav > .open > a:hover {background-color: #12495f;}
+  .navbar-nav > .open > a, .navbar-nav > .open > a:hover, .navbar-nav > .open > a:focus {background-color: #12495f; color:#fff;}
 }
 
+.dropdown-plonetheme {
+  h2 {color:#4b7387; font-weight: bold; font-family: DinRegular;}
+}
 
 #portal-logo {
   margin: 22px 0;
