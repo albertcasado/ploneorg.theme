@@ -56,6 +56,14 @@ body {
   padding-left: 0;
   padding-right: 0;
 }
+#portal-breadcrumbs {
+  border-top: 1px solid #CDCDCD;
+  color: #9A9A9A;
+  font-size: 92.5%;
+  padding-left: 0.25em;
+  padding-top: 0.5em;
+  text-transform: uppercase;
+}
 /*
 .inner-container {
   .container-fixed();
@@ -100,6 +108,7 @@ header {
 }
 .header-wrapper .row,
 .navbar-plonetheme {
+  padding: 0 5px 0 20px;
   background-color: transparent;
   margin-bottom: 0;
   border: 0;
@@ -111,7 +120,7 @@ header {
   color: #fff;
   text-transform: uppercase;
   padding-top: 32px;
-  padding-bottom: 33px;
+  padding-bottom: 32px;
 }
 .header-wrapper .row .navbar-nav > li,
 .navbar-plonetheme .navbar-nav > li {
@@ -131,11 +140,8 @@ header {
 .header-wrapper .row .navbar-nav > .open > a,
 .navbar-plonetheme .navbar-nav > .open > a,
 .header-wrapper .row .navbar-nav > .open > a:hover,
-.navbar-plonetheme .navbar-nav > .open > a:hover,
-.header-wrapper .row .navbar-nav > .open > a:focus,
-.navbar-plonetheme .navbar-nav > .open > a:focus {
+.navbar-plonetheme .navbar-nav > .open > a:hover {
   background-color: #12495f;
-  color:#fff;
 }
 #portal-logo {
   margin: 22px 0;
